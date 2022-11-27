@@ -41,7 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationContext.cs" />
     <Compile Include="ApplicationContextConfig.cs" />
+    <Compile Include="ClassScope.cs" />
+    <Compile Include="DependencyKeyAttribute.cs" />
+    <Compile Include="exception\ApplicationContextConfigException.cs" />
+    <Compile Include="exception\ApplicationContextException.cs" />
+    <Compile Include="IApplicationContext.cs" />
     <Compile Include="ImplementationEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
